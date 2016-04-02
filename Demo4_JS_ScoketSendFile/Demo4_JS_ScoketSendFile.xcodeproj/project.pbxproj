@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9F3FBF1CA6C98C007FEE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FBE1CA6C98C007FEE3B /* main.m */; };
+		CF9F3FC21CA6C98C007FEE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FC11CA6C98C007FEE3B /* AppDelegate.m */; };
+		CF9F3FC51CA6C98C007FEE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FC41CA6C98C007FEE3B /* ViewController.m */; };
+		CF9F3FC81CA6C98C007FEE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9F3FC61CA6C98C007FEE3B /* Main.storyboard */; };
+		CF9F3FCB1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FC91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodeld */; };
+		CF9F3FCD1CA6C98C007FEE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9F3FCC1CA6C98C007FEE3B /* Assets.xcassets */; };
+		CF9F3FD01CA6C98C007FEE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9F3FCE1CA6C98C007FEE3B /* LaunchScreen.storyboard */; };
+		CF9F3FDB1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FDA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.m */; };
+		CF9F3FE61CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FE51CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.m */; };
+		CF9F3FF51CA6CA08007FEE3B /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F3FF41CA6CA08007FEE3B /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF9F3FD71CA6C98C007FEE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9F3FB21CA6C98C007FEE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9F3FB91CA6C98C007FEE3B;
+			remoteInfo = Demo4_JS_ScoketSendFile;
+		};
+		CF9F3FE21CA6C98C007FEE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9F3FB21CA6C98C007FEE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9F3FB91CA6C98C007FEE3B;
+			remoteInfo = Demo4_JS_ScoketSendFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF9F3FBA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo4_JS_ScoketSendFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9F3FBE1CA6C98C007FEE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9F3FC01CA6C98C007FEE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF9F3FC11CA6C98C007FEE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9F3FC31CA6C98C007FEE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF9F3FC41CA6C98C007FEE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF9F3FC71CA6C98C007FEE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9F3FCA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo4_JS_ScoketSendFile.xcdatamodel; sourceTree = "<group>"; };
+		CF9F3FCC1CA6C98C007FEE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF9F3FCF1CA6C98C007FEE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9F3FD11CA6C98C007FEE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9F3FD61CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_ScoketSendFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9F3FDA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_ScoketSendFileTests.m; sourceTree = "<group>"; };
+		CF9F3FDC1CA6C98C007FEE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9F3FE11CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_ScoketSendFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9F3FE51CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_ScoketSendFileUITests.m; sourceTree = "<group>"; };
+		CF9F3FE71CA6C98C007FEE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9F3FF31CA6CA08007FEE3B /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		CF9F3FF41CA6CA08007FEE3B /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9F3FB71CA6C98C007FEE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FD31CA6C98C007FEE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FDE1CA6C98C007FEE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9F3FB11CA6C98C007FEE3B = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FBC1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */,
+				CF9F3FD91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests */,
+				CF9F3FE41CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests */,
+				CF9F3FBB1CA6C98C007FEE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9F3FBB1CA6C98C007FEE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FBA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.app */,
+				CF9F3FD61CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.xctest */,
+				CF9F3FE11CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9F3FBC1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FF31CA6CA08007FEE3B /* AsyncSocket.h */,
+				CF9F3FF41CA6CA08007FEE3B /* AsyncSocket.m */,
+				CF9F3FC01CA6C98C007FEE3B /* AppDelegate.h */,
+				CF9F3FC11CA6C98C007FEE3B /* AppDelegate.m */,
+				CF9F3FC31CA6C98C007FEE3B /* ViewController.h */,
+				CF9F3FC41CA6C98C007FEE3B /* ViewController.m */,
+				CF9F3FC61CA6C98C007FEE3B /* Main.storyboard */,
+				CF9F3FCC1CA6C98C007FEE3B /* Assets.xcassets */,
+				CF9F3FCE1CA6C98C007FEE3B /* LaunchScreen.storyboard */,
+				CF9F3FD11CA6C98C007FEE3B /* Info.plist */,
+				CF9F3FC91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodeld */,
+				CF9F3FBD1CA6C98C007FEE3B /* Supporting Files */,
+			);
+			path = Demo4_JS_ScoketSendFile;
+			sourceTree = "<group>";
+		};
+		CF9F3FBD1CA6C98C007FEE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FBE1CA6C98C007FEE3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF9F3FD91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FDA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.m */,
+				CF9F3FDC1CA6C98C007FEE3B /* Info.plist */,
+			);
+			path = Demo4_JS_ScoketSendFileTests;
+			sourceTree = "<group>";
+		};
+		CF9F3FE41CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F3FE51CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.m */,
+				CF9F3FE71CA6C98C007FEE3B /* Info.plist */,
+			);
+			path = Demo4_JS_ScoketSendFileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9F3FB91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9F3FEA1CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFile" */;
+			buildPhases = (
+				CF9F3FB61CA6C98C007FEE3B /* Sources */,
+				CF9F3FB71CA6C98C007FEE3B /* Frameworks */,
+				CF9F3FB81CA6C98C007FEE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo4_JS_ScoketSendFile;
+			productName = Demo4_JS_ScoketSendFile;
+			productReference = CF9F3FBA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF9F3FD51CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9F3FED1CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFileTests" */;
+			buildPhases = (
+				CF9F3FD21CA6C98C007FEE3B /* Sources */,
+				CF9F3FD31CA6C98C007FEE3B /* Frameworks */,
+				CF9F3FD41CA6C98C007FEE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9F3FD81CA6C98C007FEE3B /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_ScoketSendFileTests;
+			productName = Demo4_JS_ScoketSendFileTests;
+			productReference = CF9F3FD61CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF9F3FE01CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9F3FF01CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFileUITests" */;
+			buildPhases = (
+				CF9F3FDD1CA6C98C007FEE3B /* Sources */,
+				CF9F3FDE1CA6C98C007FEE3B /* Frameworks */,
+				CF9F3FDF1CA6C98C007FEE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9F3FE31CA6C98C007FEE3B /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_ScoketSendFileUITests;
+			productName = Demo4_JS_ScoketSendFileUITests;
+			productReference = CF9F3FE11CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9F3FB21CA6C98C007FEE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF9F3FB91CA6C98C007FEE3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF9F3FD51CA6C98C007FEE3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF9F3FB91CA6C98C007FEE3B;
+					};
+					CF9F3FE01CA6C98C007FEE3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF9F3FB91CA6C98C007FEE3B;
+					};
+				};
+			};
+			buildConfigurationList = CF9F3FB51CA6C98C007FEE3B /* Build configuration list for PBXProject "Demo4_JS_ScoketSendFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF9F3FB11CA6C98C007FEE3B;
+			productRefGroup = CF9F3FBB1CA6C98C007FEE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9F3FB91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */,
+				CF9F3FD51CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests */,
+				CF9F3FE01CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9F3FB81CA6C98C007FEE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F3FD01CA6C98C007FEE3B /* LaunchScreen.storyboard in Resources */,
+				CF9F3FCD1CA6C98C007FEE3B /* Assets.xcassets in Resources */,
+				CF9F3FC81CA6C98C007FEE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FD41CA6C98C007FEE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FDF1CA6C98C007FEE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9F3FB61CA6C98C007FEE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F3FC51CA6C98C007FEE3B /* ViewController.m in Sources */,
+				CF9F3FF51CA6CA08007FEE3B /* AsyncSocket.m in Sources */,
+				CF9F3FC21CA6C98C007FEE3B /* AppDelegate.m in Sources */,
+				CF9F3FBF1CA6C98C007FEE3B /* main.m in Sources */,
+				CF9F3FCB1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FD21CA6C98C007FEE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F3FDB1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9F3FDD1CA6C98C007FEE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F3FE61CA6C98C007FEE3B /* Demo4_JS_ScoketSendFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9F3FD81CA6C98C007FEE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9F3FB91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */;
+			targetProxy = CF9F3FD71CA6C98C007FEE3B /* PBXContainerItemProxy */;
+		};
+		CF9F3FE31CA6C98C007FEE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9F3FB91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile */;
+			targetProxy = CF9F3FE21CA6C98C007FEE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF9F3FC61CA6C98C007FEE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9F3FC71CA6C98C007FEE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9F3FCE1CA6C98C007FEE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9F3FCF1CA6C98C007FEE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9F3FE81CA6C98C007FEE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF9F3FE91CA6C98C007FEE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9F3FEB1CA6C98C007FEE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF9F3FEC1CA6C98C007FEE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF9F3FEE1CA6C98C007FEE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_ScoketSendFile.app/Demo4_JS_ScoketSendFile";
+			};
+			name = Debug;
+		};
+		CF9F3FEF1CA6C98C007FEE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_ScoketSendFile.app/Demo4_JS_ScoketSendFile";
+			};
+			name = Release;
+		};
+		CF9F3FF11CA6C98C007FEE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_ScoketSendFile;
+			};
+			name = Debug;
+		};
+		CF9F3FF21CA6C98C007FEE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_ScoketSendFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-ScoketSendFileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_ScoketSendFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9F3FB51CA6C98C007FEE3B /* Build configuration list for PBXProject "Demo4_JS_ScoketSendFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9F3FE81CA6C98C007FEE3B /* Debug */,
+				CF9F3FE91CA6C98C007FEE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9F3FEA1CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9F3FEB1CA6C98C007FEE3B /* Debug */,
+				CF9F3FEC1CA6C98C007FEE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9F3FED1CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9F3FEE1CA6C98C007FEE3B /* Debug */,
+				CF9F3FEF1CA6C98C007FEE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9F3FF01CA6C98C007FEE3B /* Build configuration list for PBXNativeTarget "Demo4_JS_ScoketSendFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9F3FF11CA6C98C007FEE3B /* Debug */,
+				CF9F3FF21CA6C98C007FEE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF9F3FC91CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF9F3FCA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodel */,
+			);
+			currentVersion = CF9F3FCA1CA6C98C007FEE3B /* Demo4_JS_ScoketSendFile.xcdatamodel */;
+			path = Demo4_JS_ScoketSendFile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF9F3FB21CA6C98C007FEE3B /* Project object */;
+}
